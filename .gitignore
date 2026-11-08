@@ -1,0 +1,14 @@
+target/
+*.class
+*.jar
+*.log
+.idea/
+*.iml
+.vscode/
+.DS_Store
+.gigaide/
+deploy_key
+*.pem
+.env
+body.json
+out/

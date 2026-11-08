@@ -1,0 +1,8 @@
+
+services:
+  todo-app:
+    image: ${DOCKER_USERNAME}/todo-app:latest
+    container_name: todo-app
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
